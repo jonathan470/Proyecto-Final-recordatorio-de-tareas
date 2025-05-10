@@ -38,8 +38,8 @@ section {
   color: white;
   font-size: 18px;
   text-align: center;
-  padding-top: 20px; /* Espacio en la parte superior */
-  overflow-y: auto; /* Permite desplazamiento si hay muchas tareas */
+  padding-top: 20px; 
+  overflow-y: auto; 
   max-height: 95%;
 }
 
@@ -98,8 +98,8 @@ section {
 /* Contenedor de fecha, hora y recordatorio */
 .date-time-container {
   display: flex;
-  gap: 10px; /* Espacio entre los elementos */
-  margin-top: 10px; /* Separación del input principal */
+  gap: 10px; 
+  margin-top: 10px; 
 }
 
 /* Estilos para el selector de fecha, hora y recordatorio */
