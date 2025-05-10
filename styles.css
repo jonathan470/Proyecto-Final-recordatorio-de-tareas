@@ -39,6 +39,8 @@ section {
   font-size: 18px;
   text-align: center;
   padding-top: 20px; /* Espacio en la parte superior */
+  overflow-y: auto; /* Permite desplazamiento si hay muchas tareas */
+  max-height: 95%;
 }
 
 /* Estilos para el input y los selectores de fecha, hora y recordatorio */
@@ -170,4 +172,29 @@ button {
 }
 .container:active::before {
   filter: blur(0.2em);
+}
+.task-list {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.task-item {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item button {
+  margin-left: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
 }
