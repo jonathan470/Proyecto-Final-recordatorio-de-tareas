@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <div class="card_content">
+          <h1>Ingresa tu tarea</h1>
+          <div class="box-input">
+            <div class="border">
+              <input
+                type="text"
+                name="text"
+                class="input"
+                placeholder="Ingresa tu tarea"
+              />
+            </div>
+            <div class="date-time-container">
+              <input type="date" class="date-picker" />
+              <input type="time" class="time-picker" />
+              <select class="reminder-select">
+                <option value="1">Un día antes</option>
+                <option value="5">Cinco días antes</option>
+                <option value="daily">Todos los días</option>
+              </select>
+            </div>
+          </div>
+          <div class="container">
+            <button class="button">Agregar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
